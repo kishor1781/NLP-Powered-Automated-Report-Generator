@@ -1,0 +1,14 @@
+input_dir: 'C:\virtualbox\input_dir'
+output_dir: 'C:\virtualbox\output_dir'
+use_gpu: true
+max_workers: 4
+batch_size: 32
+ocr_languages:
+  - en
+llm_models:
+  summarization: "facebook/bart-large-cnn"
+  question_answering: "deepset/roberta-base-squad2"
+  text_generation: "mistralai/Mixtral-8x7B-Instruct-v0.1"
+  classification: "facebook/bart-large-mnli"
+use_hf_api: true
+hf_api_key: "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"
